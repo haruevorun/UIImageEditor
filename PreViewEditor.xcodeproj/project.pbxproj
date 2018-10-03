@@ -15,6 +15,13 @@
 		7E38772B21634AC800E1AE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E38772921634AC800E1AE8E /* LaunchScreen.storyboard */; };
 		7E38773621634AC800E1AE8E /* PreViewEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E38773521634AC800E1AE8E /* PreViewEditorTests.swift */; };
 		7E38774121634AC800E1AE8E /* PreViewEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E38774021634AC800E1AE8E /* PreViewEditorUITests.swift */; };
+		7E387750216457C900E1AE8E /* 画像1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E38774F216457C900E1AE8E /* 画像1.png */; };
+		7E387752216457D300E1AE8E /* 画像2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E387751216457D300E1AE8E /* 画像2.png */; };
+		7E387754216457DD00E1AE8E /* 画像3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E387753216457DD00E1AE8E /* 画像3.png */; };
+		7E387756216457E200E1AE8E /* 画像4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E387755216457E200E1AE8E /* 画像4.png */; };
+		7E387758216457E800E1AE8E /* 画像5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E387757216457E800E1AE8E /* 画像5.png */; };
+		7E38775C216458A000E1AE8E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E38775A216458A000E1AE8E /* CollectionViewCell.swift */; };
+		7E38775D216458A000E1AE8E /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E38775B216458A000E1AE8E /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		7E38773C21634AC800E1AE8E /* PreViewEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreViewEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E38774021634AC800E1AE8E /* PreViewEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewEditorUITests.swift; sourceTree = "<group>"; };
 		7E38774221634AC800E1AE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E38774F216457C900E1AE8E /* 画像1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "画像1.png"; path = "PreViewEditor/Assets/画像1.png"; sourceTree = SOURCE_ROOT; };
+		7E387751216457D300E1AE8E /* 画像2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "画像2.png"; path = "PreViewEditor/Assets/画像2.png"; sourceTree = SOURCE_ROOT; };
+		7E387753216457DD00E1AE8E /* 画像3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "画像3.png"; path = "PreViewEditor/Assets/画像3.png"; sourceTree = SOURCE_ROOT; };
+		7E387755216457E200E1AE8E /* 画像4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "画像4.png"; path = "PreViewEditor/Assets/画像4.png"; sourceTree = SOURCE_ROOT; };
+		7E387757216457E800E1AE8E /* 画像5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "画像5.png"; path = "PreViewEditor/Assets/画像5.png"; sourceTree = SOURCE_ROOT; };
+		7E38775A216458A000E1AE8E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7E38775B216458A000E1AE8E /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 		7E38771121634AC200E1AE8E = {
 			isa = PBXGroup;
 			children = (
+				7E38774E2164579D00E1AE8E /* Assets */,
 				7E38771C21634AC200E1AE8E /* PreViewEditor */,
 				7E38773421634AC800E1AE8E /* PreViewEditorTests */,
 				7E38773F21634AC800E1AE8E /* PreViewEditorUITests */,
@@ -101,6 +116,7 @@
 			children = (
 				7E38771D21634AC200E1AE8E /* AppDelegate.swift */,
 				7E38771F21634AC200E1AE8E /* ViewController.swift */,
+				7E3877592164587500E1AE8E /* CollectionViewCell */,
 				7E38772121634AC200E1AE8E /* Main.storyboard */,
 				7E38772721634AC800E1AE8E /* Assets.xcassets */,
 				7E38772921634AC800E1AE8E /* LaunchScreen.storyboard */,
@@ -126,6 +142,27 @@
 				7E38774221634AC800E1AE8E /* Info.plist */,
 			);
 			path = PreViewEditorUITests;
+			sourceTree = "<group>";
+		};
+		7E38774E2164579D00E1AE8E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E387751216457D300E1AE8E /* 画像2.png */,
+				7E387753216457DD00E1AE8E /* 画像3.png */,
+				7E387755216457E200E1AE8E /* 画像4.png */,
+				7E387757216457E800E1AE8E /* 画像5.png */,
+				7E38774F216457C900E1AE8E /* 画像1.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7E3877592164587500E1AE8E /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7E38775A216458A000E1AE8E /* CollectionViewCell.swift */,
+				7E38775B216458A000E1AE8E /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +270,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E38772B21634AC800E1AE8E /* LaunchScreen.storyboard in Resources */,
+				7E387758216457E800E1AE8E /* 画像5.png in Resources */,
+				7E387750216457C900E1AE8E /* 画像1.png in Resources */,
+				7E387752216457D300E1AE8E /* 画像2.png in Resources */,
+				7E387756216457E200E1AE8E /* 画像4.png in Resources */,
+				7E387754216457DD00E1AE8E /* 画像3.png in Resources */,
 				7E38772821634AC800E1AE8E /* Assets.xcassets in Resources */,
 				7E38772321634AC200E1AE8E /* Main.storyboard in Resources */,
+				7E38775D216458A000E1AE8E /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +304,7 @@
 			files = (
 				7E38772621634AC200E1AE8E /* PreViewEditor.xcdatamodeld in Sources */,
 				7E38772021634AC200E1AE8E /* ViewController.swift in Sources */,
+				7E38775C216458A000E1AE8E /* CollectionViewCell.swift in Sources */,
 				7E38771E21634AC200E1AE8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
